@@ -10,9 +10,15 @@ namespace ExifExtractor
     {
         Unknown,
         JPEG,
+        TIFF, // Vendor-agnostic RAW format
         CR2, // Canon proprietary RAW format
         NEF, // Nikon proprietary RAW format
         DNG, // Adobe open RAW format ("Digital Negative")
     }
-     
+
+    public enum ImageType
+    {
+        Thumbnail,
+        Fullsize
+    } 
 }
