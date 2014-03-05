@@ -5,6 +5,8 @@ Intended as the ultimate library for pulling relevant data from any Exif-support
 
 In the initial stages the primary focus is on extracting Exif data from Canon .CR2 files.
 
+UPDATE [2014-03-05] this probably isn't going anywhere any time soon.
+
 References
 ----------
 
